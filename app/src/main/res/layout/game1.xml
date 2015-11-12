@@ -1,0 +1,172 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/game1"
+    android:paddingLeft="50dp"
+    android:paddingRight="50dp"
+    android:gravity="bottom"
+    android:id="@+id/activity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:text="q w e r t s g h j y r u i p b f v x k i h j d d h"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/option_2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center|right"
+
+        android:text="a e h h y f v k k j u"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:singleLine="true" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+
+        android:text="r t y i p m g s e h d s t m k g s i n r s i t d r"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+
+        android:text=" k g u d w"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+
+        android:text="j p t h c w t h n y t h o m a s e d i s o n j y"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/option_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+        android:text="a l b e r t e i n s t e i n"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center"
+
+        android:text="m a h e n d r a d s w t u d f g k l h g c r s h"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+
+        android:gravity="center|left"
+
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="right" />
+
+    <TextView
+        android:id="@+id/choice_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/choice"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:text="Temukan, seret, dan jatuhkan di sini" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/textView10"
+        android:textSize="18sp"
+        android:text="Selamat! Gunakan Sebagai Kata Kunci" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next"
+        android:id="@+id/button2"
+        android:layout_gravity="right" />
+
+</LinearLayout>

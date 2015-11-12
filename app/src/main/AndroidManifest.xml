@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luthfiapriyantogmail.unphysics"
+    android:versionCode="2"
+    android:versionName="2.1" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity3Activity"
+            android:label="@string/title_activity_main_activity3" >
+        </activity>
+        <activity
+            android:name=".Rule"
+            android:label="@string/title_activity_rule" >
+        </activity>
+        <activity
+            android:name=".Rule2"
+            android:label="@string/title_activity_rule" >
+        </activity>
+        <activity
+            android:name=".tegangan1"
+            android:label="@string/title_activity_tegangan1" >
+        </activity>
+        <activity
+            android:name=".MenuTegangan2"
+            android:label="@string/title_activity_menu_tegangan2" >
+        </activity>
+        <activity
+            android:name=".MateriRegangan"
+            android:label="@string/title_activity_materi_regangan" >
+        </activity>
+        <activity
+            android:name=".MenuReganganFinal"
+            android:label="@string/title_activity_menu_regangan_final" >
+        </activity>
+        <activity
+            android:name=".Login1"
+            android:label="@string/title_activity_login1" >
+        </activity>
+        <activity
+            android:name=".SoalTegangan"
+            android:label="@string/title_activity_soal_tegangan" >
+        </activity>
+        <activity
+            android:name=".SoalTegangan2"
+            android:label="@string/title_activity_soal_tegangan2" >
+        </activity>
+        <activity
+            android:name=".PembahasanTegangan1"
+            android:label="@string/title_activity_pembahasan_tegangan1" >
+        </activity>
+        <activity
+            android:name=".PembahasanTegangan2"
+            android:label="@string/title_activity_pembahasan_tegangan2" >
+        </activity>
+        <activity
+            android:name=".SoalTegangan3"
+            android:label="@string/title_activity_soal_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanTegangan3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".elastis"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".elastis1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".elastis2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".LoginElastis"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuElastis1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuElastis2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuElastis3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanElastis1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanElastis2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanElastis3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanElastis4"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanElastis5"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalElastis1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalElastis2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalElastis3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalElastis4"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalElastis5"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".hooke1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".hooke2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".LoginHooke"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".LoginPegas"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuHooke1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuHooke2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuHooke3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuPegas1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuPegas2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".MenuPegas3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".pegas1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".pegas2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanHooke1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanHooke2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanHooke3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanHooke4"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanHooke5"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanPegas1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanPegas2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanPegas3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanPegas4"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".PembahasanPegas5"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".Rule3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".Rule4"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalHooke1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalHooke2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalHooke3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalHooke4"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalHooke5"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalPegas2"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalPegas1"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalPegas3"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalPegas4"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".SoalPegas5"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".videotegangan"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".videoelastisitas"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".videohooke"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".videopegas"
+            android:label="@string/title_activity_pembahasan_tegangan3" >
+        </activity>
+        <activity
+            android:name=".game1"
+            android:label="@string/title_activity_game1" >
+        </activity>
+        <activity
+            android:name=".game2"
+            android:label="@string/title_activity_game2" >
+        </activity>
+        <activity
+            android:name=".game3"
+            android:label="@string/title_activity_game3" >
+        </activity>
+        <activity
+            android:name=".game4"
+            android:label="@string/title_activity_game4" >
+        </activity>
+        <activity
+            android:name=".Pop"
+            android:label="@string/title_activity_game2"
+            android:theme="@style/AppTheme.CustomTheme" >
+        </activity>
+        <activity
+            android:name=".Popup"
+            android:label="@string/title_activity_game2"
+            android:theme="@style/AppTheme.CustomTheme" >
+        </activity>
+        <activity
+            android:name=".stage2"
+            android:label="@string/title_activity_stage2" >
+        </activity>
+        <activity
+            android:name=".stage1"
+            android:label="@string/title_activity_stage1" >
+        </activity>
+        <activity
+            android:name=".stage3"
+            android:label="@string/title_activity_stage3" >
+        </activity>
+        <activity
+            android:name=".stage4"
+            android:label="@string/title_activity_stage3" >
+        </activity>
+        <activity
+            android:name=".KD"
+            android:label="@string/title_activity_kd"
+            android:theme="@style/AppTheme.CustomTheme" >
+        </activity>
+    </application>
+
+</manifest>

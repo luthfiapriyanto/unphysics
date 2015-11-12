@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/backroundstage"
+    tools:context="com.luthfiapriyantogmail.unphysics.MainActivity3Activity">
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:id="@+id/imageView"
+        android:background="@drawable/einsteincar"
+        android:layout_marginBottom="188dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="30dp"
+        android:layout_marginEnd="30dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        android:background="@drawable/buttonstagesatu"
+        android:layout_below="@+id/tombolketegangan"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView"
+        android:layout_marginRight="65dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginTop="40dp" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView4"
+        android:background="@drawable/buttonstagetiga"
+        android:layout_marginBottom="51dp"
+        android:layout_above="@+id/tombolketegangan"
+        android:layout_toLeftOf="@+id/tombolketegangan"
+        android:layout_toStartOf="@+id/tombolketegangan" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tombolketegangan"
+        android:background="@drawable/buttonstagedua"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_toLeftOf="@+id/imageView"
+        android:layout_toStartOf="@+id/imageView"
+        android:layout_marginRight="47dp"
+        android:layout_marginEnd="47dp"
+        android:contentDescription="tegangankedua" />
+
+</RelativeLayout>
